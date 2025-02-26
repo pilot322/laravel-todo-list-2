@@ -22,6 +22,7 @@ class TaskController extends Controller
     public function create()
     {
         //
+        //
     }
 
     /**
@@ -37,7 +38,6 @@ class TaskController extends Controller
      */
     public function show(string $id)
     {
-        //
         return view('tasks.show', ['task' => Task::find($id)]);
     }
 
@@ -46,7 +46,6 @@ class TaskController extends Controller
      */
     public function edit(string $id)
     {
-        //
     }
 
     /**
